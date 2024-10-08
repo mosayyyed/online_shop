@@ -18,7 +18,24 @@ Welcome to the **OnlineShop App** repository, a modern and feature-rich e-commer
 
 ## Screenshots 📱
 
-*(Include screenshots of the app here for a visual preview of the UI)*
+<div align="center">
+  <img alt="onboarding" src="https://github.com/user-attachments/assets/43d3e47f-ea5f-472a-ba4d-8c45f449671b" height="350">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="auth" src="https://github.com/user-attachments/assets/11025986-6ce4-4726-8dc6-7a60e84b5144" height="350">
+&nbsp; &nbsp; &nbsp; &nbsp;
+    <img alt="home" src="https://github.com/user-attachments/assets/b6315458-1f74-488f-bc1f-74961bff2570" height="350">
+&nbsp; &nbsp; &nbsp; &nbsp;
+    <img alt="product" src="https://github.com/user-attachments/assets/ccb35e13-0832-44cc-9b95-ba33e5902d0f" height="350">
+&nbsp; &nbsp; &nbsp; &nbsp;
+    <img alt="cart" src="https://github.com/user-attachments/assets/bdfc9431-56c6-4d42-9064-e919b417cfbf" height="350">
+&nbsp; &nbsp; &nbsp; &nbsp;
+    <img alt="payment" src="https://github.com/user-attachments/assets/e20518f0-b18d-486a-b46c-b0051eaad6a3" height="350">
+&nbsp; &nbsp; &nbsp; &nbsp;
+   <img alt="profile" src="https://github.com/user-attachments/assets/5a72a873-5288-4a04-b36d-1ffddd3e1f29" height="350">
+&nbsp; &nbsp; &nbsp; &nbsp;
+
+
+</div>
 
 ## Tech Stack ⚙️
 
