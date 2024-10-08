@@ -1,0 +1,8 @@
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/onboarding_images/quickmart.png
+  android: true
+  ios: true
+  android_12:
+    image: assets/onboarding_images/quickmart.png
+    icon_background_color: "#ffffff"
