@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:untitled1/utils/constants.dart';
 
+import '../../utils/constants.dart';
 class SectionHeader extends StatelessWidget {
   final String title;
 

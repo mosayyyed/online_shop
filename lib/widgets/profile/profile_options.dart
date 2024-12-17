@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled1/screens/onboarding/onboarding_screen.dart';
+import 'package:online_shop/screens/onboarding/onboarding_screen.dart';
 
 import 'expansion_tile.dart';
 import 'profile_option.dart';

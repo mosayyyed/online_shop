@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled1/utils/constants.dart';
-
+import 'package:online_shop/utils/constants.dart';
 class SocialButtons extends StatelessWidget {
   const SocialButtons({super.key});
 

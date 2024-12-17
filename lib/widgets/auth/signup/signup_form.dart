@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:online_shop/utils/constants.dart';
+import 'package:online_shop/widgets/auth/custom_button.dart';
+import 'package:online_shop/widgets/auth/custom_textField.dart';
 import 'package:provider/provider.dart';
-import 'package:untitled1/utils/constants.dart';
-import 'package:untitled1/widgets/auth/custom_button.dart';
-import 'package:untitled1/widgets/auth/custom_textField.dart';
 
 import '../../../providers/auth_provider.dart';
 import '../../../screens/auth/confirmed_page.dart';

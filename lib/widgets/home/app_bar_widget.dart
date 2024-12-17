@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:online_shop/screens/cart/cart_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:untitled1/screens/cart/cart_screen.dart';
-
 import '../../helper/cart_helper.dart';
 import '../../utils/constants.dart';
 

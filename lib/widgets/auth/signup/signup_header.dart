@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled1/widgets/auth/registration_label.dart';
+import 'package:online_shop/widgets/auth/registration_label.dart';
 
 import '../../../screens/auth/login_screen.dart';
 
