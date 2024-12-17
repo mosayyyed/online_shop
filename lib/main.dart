@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-
 import 'helper/cart_helper.dart';
 import 'helper/favourite_helper.dart';
 import 'providers/category_provider.dart';

@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:online_shop/utils/constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:untitled1/utils/constants.dart';
 
 import '../screens/main_screen.dart';
 

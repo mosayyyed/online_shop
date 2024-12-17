@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:online_shop/screens/auth/login_screen.dart';
+import 'package:online_shop/screens/auth/sign_up_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:untitled1/screens/auth/login_screen.dart';
-import 'package:untitled1/screens/auth/sign_up_screen.dart';
 
 import '../../providers/onboarding_provider.dart';
 import '../../widgets/auth/custom_button.dart';

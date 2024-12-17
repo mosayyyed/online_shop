@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:online_shop/providers/product_provider.dart';
+import 'package:online_shop/screens/payment/payment_screen.dart';
 import 'package:provider/provider.dart';
-import 'package:untitled1/providers/product_provider.dart';
-import 'package:untitled1/screens/payment/payment_screen.dart';
-import 'package:untitled1/widgets/product_card.dart';
 
 import '../../helper/cart_helper.dart';
 import '../../utils/constants.dart';
 import '../../widgets/auth/custom_button.dart';
 import '../../widgets/empty_massege.dart';
+import '../../widgets/product_card.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({super.key});
