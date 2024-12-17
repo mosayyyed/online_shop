@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:online_shop/models/product_model.dart';
+import 'package:online_shop/utils/constants.dart';
 import 'package:provider/provider.dart';
 import 'package:rate/rate.dart';
-import 'package:untitled1/models/product_model.dart';
-import 'package:untitled1/utils/constants.dart';
-
 import '../../helper/cart_helper.dart';
 import '../../helper/favourite_helper.dart';
 import '../../widgets/auth/custom_button.dart';

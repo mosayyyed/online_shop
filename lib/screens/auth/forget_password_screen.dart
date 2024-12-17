@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untitled1/utils/constants.dart';
+import 'package:online_shop/utils/constants.dart';
 
 import '../../widgets/auth/custom_button.dart';
 import '../../widgets/auth/custom_textField.dart';

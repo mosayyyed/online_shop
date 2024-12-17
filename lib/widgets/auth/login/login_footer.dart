@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:untitled1/widgets/auth/social_button.dart';
+
+import '../social_button.dart';
+
 
 class LoginFooter extends StatelessWidget {
   const LoginFooter({super.key});

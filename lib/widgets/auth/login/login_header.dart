@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:untitled1/widgets/auth/registration_label.dart';
 
 import '../../../screens/auth/sign_up_screen.dart';
+import '../registration_label.dart';
 
 class LoginHeader extends StatelessWidget {
   const LoginHeader({super.key});
