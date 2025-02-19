@@ -1,6 +1,6 @@
-import 'package:alert_info/alert_info.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_icon_snackbar/flutter_icon_snackbar.dart';
 import 'package:go_router/go_router.dart';
 import 'package:online_shop_mvvm/scr/core/themes/app_colors.dart';
 import 'package:online_shop_mvvm/scr/features/auth/data/models/login_request_model.dart';
@@ -22,12 +22,11 @@ class LoginForm extends StatelessWidget {
     return BlocListener<LoginCubit, LoginState>(
       listener: (context, state) {
         if (state is LoginError) {
-          AlertInfo.show(
-            context: context,
-            text: state.message,
-            duration: 3,
-            icon: Icons.error,
-            typeInfo: TypeInfo.error,
+          IconSnackBar.show(
+            context,
+            maxLines: 5,
+            snackBarType: SnackBarType.fail,
+            label: state.message,
           );
         } else if (state is LoginSuccess) {
           GoRouter.of(context).go('/home');

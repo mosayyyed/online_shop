@@ -1,6 +1,7 @@
-import 'package:alert_info/alert_info.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_icon_snackbar/flutter_icon_snackbar.dart';
+import 'package:go_router/go_router.dart';
 import 'package:online_shop_mvvm/scr/core/themes/app_colors.dart';
 import 'package:online_shop_mvvm/scr/features/auth/presentation/controller/signup/signup_cubit.dart';
 import 'package:provider/provider.dart';
@@ -21,20 +22,14 @@ class SignupForm extends StatelessWidget {
     return BlocListener<RegisterCubit, RegistrationState>(
       listener: (context, state) {
         if (state is RegistrationError) {
-          AlertInfo.show(
-            context: context,
-            text: state.message,
-            duration: 3,
-            icon: Icons.error,
-            typeInfo: TypeInfo.error,
+          IconSnackBar.show(
+            context,
+            maxLines: 3,
+            snackBarType: SnackBarType.fail,
+            label: state.message,
           );
         } else if (state is RegistrationSuccess) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(
-              content: Text('Registration Successful'),
-              backgroundColor: const Color.fromARGB(255, 98, 244, 54),
-            ),
-          );
+          GoRouter.of(context).go('/home');
         }
       },
       child: Form(
@@ -117,30 +112,6 @@ class SignupForm extends StatelessWidget {
               label: registerCubit.isLoading ? 'Loading...' : 'Create Account',
               backgroundColor: Colors.black,
               textColor: Colors.white,
-            ),
-            const SizedBox(height: 20.0),
-            CustomButton(
-              onTap: () {},
-              label: 'Sign in with Apple',
-              backgroundColor: Colors.transparent,
-              icon: const Icon(
-                Icons.apple,
-                color: Colors.black,
-                size: 30,
-              ),
-              textColor: Colors.black,
-            ),
-            const SizedBox(height: 5.0),
-            CustomButton(
-              onTap: () {},
-              label: 'Sign in with Facebook',
-              backgroundColor: Colors.transparent,
-              icon: const Icon(
-                Icons.facebook,
-                color: Colors.black,
-                size: 30,
-              ),
-              textColor: Colors.black,
             ),
           ],
         ),
